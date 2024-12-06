@@ -13,7 +13,7 @@ app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://TDW_DATABASE:123@tdw.0p8nu.mongodb.net/?retryWrites=true&w=majority&appName=TDW', {
+mongoose.connect('mongodb+srv://TDW_DATABASE:123@tdw.0p8nu.mongodb.net/tdw_tutorial?retryWrites=true&w=majority&appName=TDW', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
    });
